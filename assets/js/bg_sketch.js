@@ -63,10 +63,9 @@ function setup() {
 function draw() {
   if (!isSetupComplete) return; // Beende draw, wenn setup noch nicht abgeschlossen ist
   // print("pageCounter: " + pageCounter);
-  // for (let i = 0; i < pageCounter; i++) {
-  //   print(i);
-  //   frames[i].image(get(), 0, 0);
-  // }
+  for (let i = 0; i < pageCounter - 2; i++) {
+    frames[i].image(get(), 0, 0);
+  }
   // frames[0].image(get(), 0, 0);
   // frames[0].background("yellow");
 

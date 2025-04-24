@@ -3,20 +3,23 @@ let canvas,
 let frames = [];
 let pageCounter = 2;
 let isSetupComplete = false; // Flag, um anzuzeigen, ob setup abgeschlossen ist
+let pagedRendered = false;
 
-window.addEventListener("load", () => {
-  class MyHandlers extends Paged.Handler {
-    afterRendered(pages) {
-      console.log("Rendering abgeschlossen!");
-    }
+class finishing extends Paged.Handler {
+  // this let us call the methods from the the chunker, the polisher and the caller for the rest of the script
+  constructor(chunker, polisher, caller) {
+    super(chunker, polisher, caller);
   }
+  afterRendered() {
+    pagedRendered = true;
+  }
+}
 
-  Paged.registerHandlers(MyHandlers);
-});
+Paged.registerHandlers(finishing);
 
 function setup() {
   const interval = setInterval(() => {
-    if (document.getElementById("page-1")) {
+    if (pagedRendered) {
       let p1 = document.getElementById("page-1").getBoundingClientRect();
       canvas = createCanvas(p1.width, p1.height);
       canvas.parent("page-1");
@@ -28,6 +31,11 @@ function setup() {
         frames[pageCounter - 2] = createGraphics(page.width, page.height);
         frames[pageCounter - 2].parent("page-" + pageCounter);
         frames[pageCounter - 2].canvas.style.display = "block";
+        frames[pageCounter - 2].background(
+          random(255),
+          random(255),
+          random(255)
+        );
         if (pageCounter % 2 == 0) {
           frames[pageCounter - 2].position(
             page.left + window.scrollX,

@@ -18,5 +18,6 @@
             <h2><?= $page->subtitle() ?></h2>
             <img src= <?= $page->images() ?>>
             <p><?= $page->description() ?></p>
+            
 </body>
 </html>

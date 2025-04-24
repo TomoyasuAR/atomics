@@ -1,0 +1,77 @@
+:root {
+  --global-margin: 20px; /* Define the global margin variable */
+  /* No need to redefine --pagedjs-baseline here if it's already in interface.css */
+}
+
+body {
+  margin: 0; /* Use the global margin variable */
+  padding: 0;
+  font-family: "Arial Black";
+  font-weight: 900;
+  width: 100vw;
+}
+
+h1 {
+  font-size: 46pt;
+  /* line-height: 66pt; */
+  font-weight: 900;
+  margin: 0;
+  padding: 0;
+}
+h2 {
+  font-size: 16pt;
+  margin: 0;
+  padding: 0;
+  line-height: 17.2pt;
+  font-weight: 600;
+}
+p {
+  font-size: 11pt;
+  margin-top: var(--global-margin);
+  padding: 0;
+  line-height: 14pt;
+  font-family: "Arial";
+
+  font-weight: 300;
+  /* column-count: 2;
+  column-gap: var(--global-margin);  */
+}
+
+img {
+  width: 100vw/2;
+  margin-top: var(--global-margin); /* Use the global margin variable */
+  padding: 0;
+  border-radius: 20px;
+}
+
+@media print {
+  .pagedjs-pages {
+    transform: scale(0.2); /* oder mit JavaScript dynamisch berechnen */
+    transform-origin: top left;
+  }
+}
+
+/* --------PRINT-------- */
+/*@media print {
+  @page {
+    size: 210mm, 294mm;
+
+    @bottom-left {
+      content: counter(page);
+      font-size: 11pt;
+    }
+
+    @bottom-center {
+      content: string(title);
+      font-size: 11pt;
+      font-weight: 200;
+    }
+    color: rgb(80, 208, 161);
+  }
+
+  h1 {
+    string-set: title content(text);
+    page-break-after: always;
+    page-break-before: always;
+  }
+}

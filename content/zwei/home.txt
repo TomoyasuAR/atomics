@@ -1,0 +1,8 @@
+Title: Live-Coding Events
+----
+Subtitle: Technologie trifft Kreativität
+----
+Description: Live-Coding-Events sind innovative Veranstaltungen, bei denen Künstler Code schreiben, um Musik und visuelle Kunst in Echtzeit zu generieren. Diese einzigartige Form der Performance verbindet technisches Know-how mit künstlerischem Ausdruck und schafft ein immersives Erlebnis für das Publikum.
+----
+
+Uuid: NEW_UUID_HERE

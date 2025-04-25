@@ -1,54 +1,141 @@
 :root {
-  --global-margin: 20px; /* Define the global margin variable */
-  /* No need to redefine --pagedjs-baseline here if it's already in interface.css */
+  --global-margin: 8px;
+  --c1: rgb(182, 236, 197);
 }
 
 body {
   margin: 0; /* Use the global margin variable */
   padding: 0;
-  font-family: "Arial Black";
+  font-family: "EuclidFlex-Bold";
   font-weight: 900;
   width: 100vw;
+
+}
+
+.bgPanel { 
+  margin-bottom:var(--global-margin);
+  padding: var(--global-margin);
+  /* background-color: rgb(182, 236, 197); */
+  background-color: white;
+  /* border: 2px solid black;*/
+  border-radius: 10px;  
+  box-shadow: 2px 2px 15px lightgrey;
+}
+
+button {
+  font-size: 8pt;
+  line-height: 15.2pt;
+  font-family: "EuclidFlex-Bold";
+  font-weight: 600;
+  cursor: pointer; 
+  text-transform: uppercase; 
+  transition: transform 0.3s ease; 
+  margin-right:var(--global-margin);
+  /* border: none;  */
+}
+
+button:hover {
+  /* background-color: black;
+  color: white; */
+  transform: skew(20deg);
+
+}
+
+#logo {
+  position: running(atomics);
+  /* border: 2px solid black; */
+  margin-top:var(--global-margin);
+  font-family: "ABCMaxiRound-Regular";
+  border-bottom: 2px dotted rgb(0, 0, 0);
+  cursor: pointer; 
+  color: black;
+  /* transition: color 0.3s ease;  */
+}
+
+#logo:hover {
 }
 
 h1 {
   font-size: 46pt;
-  /* line-height: 66pt; */
+  line-height: 52pt;
   font-weight: 900;
   margin: 0;
   padding: 0;
+  display: inline-block; 
+  font-family: "ABCMaxiRound-Bold";
+
+  /* max-width: 75%; */
+
 }
 h2 {
   font-size: 16pt;
-  margin: 0;
+  margin-top: 0;
   padding: 0;
   line-height: 17.2pt;
   font-weight: 600;
+  display: inline-block; 
+  font-family: "EuclidFlex-Regular";
+
+
 }
 p {
   font-size: 11pt;
-  margin-top: var(--global-margin);
+  margin-top: 0;
   padding: 0;
-  line-height: 14pt;
-  font-family: "Arial";
-
+  line-height: 15.2pt;
+  font-family: "EuclidFlex-Regular";
   font-weight: 300;
+
   /* column-count: 2;
   column-gap: var(--global-margin);  */
 }
 
 img {
-  width: 100vw/2;
-  margin-top: var(--global-margin); /* Use the global margin variable */
-  padding: 0;
-  border-radius: 20px;
+  max-width: 100%;
 }
 
 @media print {
-  .pagedjs-pages {
-    transform: scale(0.2); /* oder mit JavaScript dynamisch berechnen */
-    transform-origin: top left;
+  @page{
+    size: 210mm, 294mm;
+    margin-left: 140px;
+    margin-top: 60px;
+    margin-right: 40px;
+    margin-bottom: 40px;
+
+    @top-left{
+      content: element(atomics);
+      }
+
+    /* @bottom-right {
+      content: counter(page);
+      font-size: 8pt;
+      font-family: "Arial";
+      font-weight: 600;    }
+
+    @bottom-left {
+      content: string(title);
+      font-size: 8pt;
+      font-family: "Arial";
+      font-weight: 600;
+
+
+      padding: 10px;
+      background-color: rgb(182, 236, 197);
+      border: 4px solid black;
+      border-radius: 10px;  
+
+      margin-left: 0;
+      margin-top: 10px;
+      margin-right: 10px;
+      margin-bottom: 10px;
+
+    } */
   }
+  h1 {
+    string-set: title content(text);
+    /* page-break-before: always; */
+  }
+
 }
 
 /* --------PRINT-------- */

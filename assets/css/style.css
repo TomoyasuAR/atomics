@@ -3,12 +3,37 @@
   --c1: rgb(182, 236, 197);
 }
 
+@font-face {
+  font-family: EuclidRegular;
+  src: url(/assets/fonts/EuclidFlex-Regular.woff2);
+}
+@font-face {
+  font-family: EuclidBold;
+  src: url(/assets/fonts/EuclidFlex-Bold.woff2);
+}
+
+
+@font-face {
+  font-family: "MaxiRegular";
+  src: url(/assets/fonts/ABCMaxi/ABCMaxiRound-Regular.otf);
+}
+
+@font-face {
+  font-family: "MaxiBold";
+  src: url(/assets/fonts/ABCMaxi/ABCMaxiRound-Bold.otf);
+}
+
+
+
 body {
   margin: 0; /* Use the global margin variable */
   padding: 0;
   font-family: "EuclidFlex-Bold";
   font-weight: 900;
   width: 100vw;
+  /* margin: 20px;
+  margin-left: 10%;
+  max-width: 50%; */
 
 }
 
@@ -25,7 +50,7 @@ body {
 button {
   font-size: 8pt;
   line-height: 15.2pt;
-  font-family: "EuclidFlex-Bold";
+  font-family: EuclidRegular;
   font-weight: 600;
   cursor: pointer; 
   text-transform: uppercase; 
@@ -45,7 +70,7 @@ button:hover {
   position: running(atomics);
   /* border: 2px solid black; */
   margin-top:var(--global-margin);
-  font-family: "ABCMaxiRound-Regular";
+  font-family: MaxiBold;
   border-bottom: 2px dotted rgb(0, 0, 0);
   cursor: pointer; 
   color: black;
@@ -62,7 +87,7 @@ h1 {
   margin: 0;
   padding: 0;
   display: inline-block; 
-  font-family: "ABCMaxiRound-Bold";
+  font-family: MaxiBold;
 
   /* max-width: 75%; */
 
@@ -73,8 +98,8 @@ h2 {
   padding: 0;
   line-height: 17.2pt;
   font-weight: 600;
-  display: inline-block; 
-  font-family: "EuclidFlex-Regular";
+  /* display: inline-block;  */
+  font-family: EuclidBold;
 
 
 }
@@ -83,7 +108,7 @@ p {
   margin-top: 0;
   padding: 0;
   line-height: 15.2pt;
-  font-family: "EuclidFlex-Regular";
+  font-family: EuclidRegular;
   font-weight: 300;
 
   /* column-count: 2;

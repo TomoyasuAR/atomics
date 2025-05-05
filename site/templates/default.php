@@ -5,12 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><?= $page->title() ?></title>
-    <!-- Link zur style.css -->
+    <!-- Link zur style.cssây  -->
     <?= css ('assets/css/style.css') ?>
     <?= css ('assets/css/interface.css') ?>
     <?= js('assets/js/paged.polyfill.js') ?>
     <?= js('assets/js/p5.min.js') ?>
-    <?= js('assets/js/bg_sketch.js') ?>
 
 </head>
 

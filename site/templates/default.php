@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
-
+fws2e3rtzui
+'ä0öl kjhzsxya<q21839405ß´789 '
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,6 +9,7 @@
     <!-- Link zur style.cssây  -->
     <?= css ('assets/css/style.css') ?>
     <?= css ('assets/css/interface.css') ?>
+    <?= css ('asset7s/css/interface.css') ?>
     <?= js('assets/js/paged.polyfill.js') ?>
     <?= js('assets/js/p5.min.js') ?>
 

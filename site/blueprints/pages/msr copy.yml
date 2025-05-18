@@ -1,0 +1,27 @@
+title: MSR 2
+
+columns:
+  left:
+    width: 1/2
+    sections:
+      info:
+        type: fields
+        fields:
+          title:
+            label: Title
+            type: text
+          description:
+            label: Description
+            type: textarea
+          date:
+            label: Date
+            type: date
+          link:
+            label: Link
+            type: pages
+  right:
+    width: 1/2
+    sections:
+      gallery:
+        type: files
+        layout: cards

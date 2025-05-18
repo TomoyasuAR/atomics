@@ -1,0 +1,16 @@
+title: Editor
+home: /panel/account
+image:
+  back: blue-600
+  icon: 📝
+
+permissions:
+  access:
+    account: true
+    panel: true
+    users: false
+    site: true
+    system: false
+    languages: true
+  files:
+    delete: false

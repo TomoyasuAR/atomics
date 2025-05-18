@@ -29,7 +29,7 @@
     <h1 class="bgPanel"><?= $page->title() ?></h1>
     <h2 class="bgPanel"><?= $page->subtitle() ?></h2>
     <img src=<?= $page->images() ?> class="bgPanel">
-    <p class="bgPanel"><?= $page->description() ?></p>
+    <p class="bgPanel"><?= kirbytext($page->description()) ?></p>
 
 </body>
 

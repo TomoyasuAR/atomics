@@ -1,8 +1,18 @@
 Title: Algoraves & Live Coding
+
 ----
+
+Text: sxdfsdfs
+
+----
+
 Subtitle: Wo Code auf Musik trifft
+
 ----
-Description: Eine Algorave-Aufführung ist ein einzigartiges Erlebnis, bei dem Live-Coding und elektronische Musik verschmelzen. Künstler schreiben Code in Echtzeit, der direkt in pulsierende Beats und visuelle Effekte umgesetzt wird. Das Publikum wird Teil eines kreativen Prozesses, der Technologie und Kunst auf faszinierende Weise verbindet.
+
+Description:
+
+Eine Algorave-Aufführung ist ein einzigartiges Erlebnis, bei dem Live-Coding und elektronische Musik verschmelzen. Künstler schreiben Code in Echtzeit, der direkt in pulsierende Beats und visuelle Effekte umgesetzt wird. Das Publikum wird Teil eines kreativen Prozesses, der Technologie und Kunst auf faszinierende Weise verbindet.
 Eine Algorave-Aufführung ist ein einzigartiges Erlebnis, bei dem Live-Coding und elektronische Musik verschmelzen. Künstler schreiben Code in Echtzeit, der direkt in pulsierende Beats und visuelle Effekte umgesetzt wird. Das Publikum wird Teil eines kreativen Prozesses, der Technologie und Kunst auf faszinierende Weise verbindet.
 Eine Algorave-Aufführung ist ein einzigartiges Erlebnis, bei dem Live-Coding und elektronische Musik verschmelzen. Künstler schreiben Code in Echtzeit, der direkt in pulsierende Beats und visuelle Effekte umgesetzt wird. Das Publikum wird Teil eines kreativen Prozesses, der Technologie und Kunst auf faszinierende Weise verbindet.
 Eine Algorave-Aufführung ist ein einzigartiges Erlebnis, bei dem Live-Coding und elektronische Musik verschmelzen. Künstler schreiben Code in Echtzeit, der direkt in pulsierende Beats und visuelle Effekte umgesetzt wird. Das Publikum wird Teil eines kreativen Prozesses, der Technologie und Kunst auf faszinierende Weise verbindet.

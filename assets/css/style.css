@@ -100,8 +100,17 @@ h2 {
   font-weight: 600;
   /* display: inline-block;  */
   font-family: EuclidBold;
+}
 
 
+h3 {
+  font-size: 13pt;
+  margin-top: 0;
+  padding: 0;
+  line-height: 15.2pt;
+  font-weight: 600;
+  /* display: inline-block;  */
+  font-family: EuclidBold;
 }
 p {
   font-size: 11pt;
@@ -110,6 +119,19 @@ p {
   line-height: 15.2pt;
   font-family: EuclidRegular;
   font-weight: 300;
+
+  /* column-count: 2;
+  column-gap: var(--global-margin);  */
+}
+a {
+  font-size: 13pt;
+  margin-top: 0;
+  padding: 0;
+  line-height: 15.2pt;
+  font-weight: 600;
+  font-family: EuclidBold;
+  color: rgb(12, 125, 98);
+  text-decoration-line: none;
 
   /* column-count: 2;
   column-gap: var(--global-margin);  */

@@ -71,7 +71,7 @@ button:hover {
   /* border: 2px solid black; */
   margin-top:var(--global-margin);
   font-family: MaxiBold;
-  border-bottom: 2px dotted rgb(0, 0, 0);
+  /* border-bottom: 2px dotted rgb(0, 0, 0); */
   cursor: pointer; 
   color: black;
   /* transition: color 0.3s ease;  */

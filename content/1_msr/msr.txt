@@ -6,12 +6,14 @@ Description:
 
 ### Hey, welcome to our digital garden. Hang around and get inspired by all the beautiful plants. If you see one of our (link: page://FaWzDXVYSROYltyS text: cats) running around, please show them some love.
 
+<br>
 ```
     |\__/,|   (`\
   _.|o o  |_   ) )
 -(((---(((--------
 ```
 
+<br>
 This place was built to collectively explore the field of Creative Coding. It's a community-driven space for both practitioners and newcomers interested in the field. You will find your own pathway through the garden and hopefully get lost in it.   
 
 You navigate by just clicking on links. It works similar to a [[Zettelkasten]], where information is connected rather than categorized. Read here, if you are further interested in the concept of [[Digital Gardens & Streams]]. How this particular garden is working can be found in the [[System & Concept Panel]]. 

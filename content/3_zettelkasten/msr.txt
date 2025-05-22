@@ -1,0 +1,35 @@
+Title: Zettelkasten
+
+----
+
+Description:
+
+### The Zettelkasten – Thinking in Notes
+
+***This is a temporary text written by ChatGPT!***
+
+The Zettelkasten is more than just a note-taking method – it's a tool for thinking. Originally developed and used by sociologist Niklas Luhmann, the system helped him manage tens of thousands of notes while producing an enormous body of academic work. But its power lies not in storage, but in connection.
+
+At the heart of the system is the individual note, or “Zettel”: a self-contained thought, written in your own words. Each note gets a unique ID and can be linked to other notes, forming a web of ideas that grows over time – like a second brain.
+
+What makes the Zettelkasten so compelling is how it supports writing. Instead of starting from scratch, you begin with a note – and follow the connections. Often, the writing unfolds naturally because you’re building on thoughts you’ve already explored.
+
+With the rise of digital tools like Obsidian, Zettlr, and Logseq, the Zettelkasten is enjoying a renaissance. But even in analog form, its benefits are clear: writing notes regularly means thinking regularly. And writing your thoughts down helps you think more clearly.
+
+----
+
+Link:
+
+- page://1UvXSJvY8asV8LWP
+- page://LoXVXHRfsxraCUWJ
+
+----
+
+Author:
+
+- user://cbVeDLzg
+- user://5FbyjLZA
+
+----
+
+Uuid: LoXVXHRfsxraCUWJ

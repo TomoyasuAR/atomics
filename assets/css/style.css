@@ -107,24 +107,32 @@ h3 {
   font-size: 13pt;
   margin-top: 0;
   padding: 0;
-  line-height: 15.2pt;
+  line-height: 19pt;
   font-weight: 600;
   /* display: inline-block;  */
   font-family: EuclidBold;
 }
+h3 a {
+  font-size: 13pt;
+}
+
 p {
   font-size: 11pt;
   margin-top: 0;
   padding: 0;
-  line-height: 15.2pt;
+  line-height: 19pt;
   font-family: EuclidRegular;
   font-weight: 300;
 
   /* column-count: 2;
   column-gap: var(--global-margin);  */
 }
+p a {
+  font-size: 11pt;
+}
+
 a {
-  font-size: 13pt;
+  font-size: 11pt;
   margin-top: 0;
   padding: 0;
   line-height: 15.2pt;

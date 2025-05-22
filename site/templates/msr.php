@@ -16,7 +16,7 @@
 </head>
 
 <body>
-    <h2 id="logo">A Creative Coding Community Garden</h2>
+    <!-- <h2 id="logo">A Creative Coding Community Garden</h2> -->
 
 
     <!-- <h1 class="bgPanel"><?= $page->title() ?></h1> -->

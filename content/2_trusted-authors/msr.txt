@@ -1,0 +1,34 @@
+Title: Trusted Authors
+
+----
+
+Description:
+
+### Trusted Authors
+
+
+```
+    |\__/,|   (`\
+  _.|o o  |_   ) )
+-(((---(((--------
+```
+
+They are the cats in our garden that look for and protect our plants. In our cat family, there are no hierarchies. We embrace the concept of [technical democracy](<Technical Democracy>), in which the voice of every individual is given equal importance, regardless of their level of knowledge.
+
+There are some important rules to follow: 
+
+ 1. We don't make decisions based on knowledge 
+ 2. Please do not plant data that belongs to other people and for which we have no licenses.
+ 3.
+
+----
+
+Link: - page://1UvXSJvY8asV8LWP
+
+----
+
+Author: - user://cbVeDLzg
+
+----
+
+Uuid: FaWzDXVYSROYltyS
